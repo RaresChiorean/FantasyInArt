@@ -1,0 +1,97 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+body{
+  animation: animateBg 4s linear infinite;
+  animation: animateBg 4s linear infinite;
+  background-image: linear-gradient(90deg,#1a1919,#080502,#292828,#1a1919,#080502);
+  background-size: 400% 100%;
+}
+@keyframes animateBg {
+0% { background-position: 100% 0%; }
+100% { background-position: 0% 0%; }
+}
+
+
+
+.middle-body{
+
+  position:relative;
+  display: flex;
+  width:100%;
+  margin-top:5rem;
+  text-align: center;
+  justify-content: space-around;
+  /* background-color: #F1F1F1;; */
+  margin-bottom: 10rem;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+  row-gap: 5rem;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: large;
+  
+}
+
+.middle-body-title-1{
+  /* background-color: #F1F1F1; */
+  color:white
+}
+
+.middle-body-title{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:50px;
+  flex-direction: column;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 1.5rem;
+}
+
+
+.middle-body-title p{
+  width: 85%;
+  text-align: center;
+  margin-top:2rem;
+  margin-bottom: 2rem;
+}
+
+.card{
+  width:35rem;
+  
+}
+
+.middle-body-card{
+  align-content: space-between;
+  border-bottom-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+  
+}
+
+.caroussel img{
+  width: 25rem;
+  height: 30rem;
+}
+.caroussel {
+width: 30rem;
+height: 30rem;
+position: relative;
+margin: 0 auto 0 auto;
+margin-top:12rem;
+margin-bottom: 6rem;
+padding:0
+}
+
+#lastcard{
+align-self: center;
+}
+
+.card-img{
+  height: 30rem;
+}
+
+hr{
+  border: 3px solid #ffffff
+}
+
